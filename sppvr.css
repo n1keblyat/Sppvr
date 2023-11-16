@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: "Inter",Semi Bold;
+}
+
+* {box-sizing: border-box}
+
+.container {
+    margin-top: 10%;
+    position: relative;
+    float: right;
+    width: 60%;
+    padding-left: 125px;
+    padding-right: 125px;
+    text-align: center
+    
+    
+}
+
+/*.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.perple{
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 125px;
+    background-color: #9797D4;
+    opacity: 60%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 21px;
+    background: #9797D4;
+    opacity: 20%;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background: #9797D4;
+    opacity: 40%;
+    outline: none;
+}
+
+
+.registerbtn {
+    border-style: solid;
+    padding: 6px;
+    border-radius: 25px;
+    border-color: #003153;
+    background-color: #ffff;
+    padding: 16px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
